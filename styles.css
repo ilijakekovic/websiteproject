@@ -25,3 +25,34 @@ body{
     font-size: 128px;
     font-weight: 400;
 }
+
+#wrapper{
+    margin: 35%;
+    margin-top: 2% ;
+    width: 50%;
+}
+
+legend{
+    text-align: left;
+}
+fieldset{
+    text-align: left;
+    font-size: 3em;
+    border: rgb(113, 104, 104) solid 1px;
+    width: 50%;
+    padding: 5%;
+}
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+ input{
+    font-size: 30px;
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid rgb(138, 122, 122);
+    border-style: none;
+}
+
