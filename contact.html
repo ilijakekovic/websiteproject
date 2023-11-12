@@ -25,15 +25,20 @@
             Contact Us here
         </legend>
         <label for="nameID">Name </label>
-        <input type="textbox" name="name" id="nameID" maxlength="50" required><br><br>
+        <input type="textbox" name="name" id="nameID" maxlength="50" required placeholder="First Name*"><br><br>
 
         <label for="emailID">Email </label>
-        <input type="email" name="email" id="emailID" required><br><br>
+        <input type="email" name="email" id="emailID" required placeholder="Email*"><br><br>
 
         <label for="phoneID">Phone</label>
-        <input type="tel" name="tel" id="phoneID" required><br><br>
+        <input type="tel" name="tel" id="phoneID" required placeholder="506-123-5678*"><br><br>
 
-        <input type="submit" value="Click here to send message">
+        <textarea name="text" id="text" cols="30" rows="5"  placeholder="Enter your message here*" required></textarea>
+        
+        <div id="submit">
+            <input type="submit" value=" Send Message">
+        </div>
+        
     </fieldset>
 </div>
     </form>
