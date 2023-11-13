@@ -6,6 +6,8 @@ body{
 .navbar {
     background-color: #659AA1;
     width: 100%;
+    top: 0;
+    margin-bottom: 50px;
 }
 .navbar__item{
     font-size: 1.2em;
@@ -13,6 +15,12 @@ body{
     float: right;
     margin-top: 12.885px;
     color: white;
+    text-decoration: none;
+}
+
+.navbar__item:hover{
+    color:darkslategrey;
+    transition: ease-in-out 0.2s;
 }
 
 .logo{
@@ -30,6 +38,17 @@ body{
     margin: 40%;
     margin-top: 2% ;
     width: 50%;
+}
+
+.blur{
+    background-color: #ffffff05;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display:grid;
 }
 
 legend{
@@ -84,6 +103,7 @@ p{
     font-size: 1.5em;
     margin-left: 18%;
     padding: 1%;
+    border-radius: 10px;
 }
 
 #text2{
@@ -91,4 +111,28 @@ p{
     left: 30.6em;
     width: 30%;
     height: 30%;
+}
+
+.undertitle{
+    text-align: center;
+    color: 	#FFFDD0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+
+}
+
+.title{
+    margin: 0 auto;
+}
+
+.aside{
+    background-color: #659AA1;
+    width: 30%;
+    height: 30%;
+    font-size: 1.5em;
+    margin-left: 18%;
+    padding: 1%;
+    border-radius: 10px;
+    float: right;
 }
