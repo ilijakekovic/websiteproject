@@ -61,6 +61,7 @@ fieldset{
     border: white solid 1px;
     width: 30%;
     color: white;
+    margin-left: 5%;
 }
 label{
     display: block;
