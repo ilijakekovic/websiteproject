@@ -129,10 +129,11 @@ p{
 
 #aside{
     background-color: rgba(156, 202, 208, 0.816);
-    height: 30%;
     font-size: 1.5em;
     padding: 1%;
     border-radius: 10px;
+    width: 6rem;
+    margin-left: 0;
 }
 
 #container{
@@ -177,6 +178,18 @@ p{
 
 span{
     font-weight: bold;
+    
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
     
 }
 
