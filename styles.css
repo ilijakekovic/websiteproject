@@ -195,3 +195,54 @@ span{
 
 
 
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+    
+    .navbar__item {
+        margin: 10px 0; /* Add spacing between stacked items */
+        float: none; /* Remove float */
+    }
+    #wrapper {
+        margin: 0 auto; /* Center the wrapper */
+        padding: 5%; /* Add padding for smaller screens */
+        max-width: 100%; /* Ensure the wrapper doesn't overflow on small screens */
+    }
+    #container, #container2 {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+        margin-right: 0; /* Remove margin on the right for container */
+    }
+    
+    .container-flex {
+        margin-left: 0; /* Remove margin on the left for container-flex */
+    }
+    #hebridesimg {
+        width: 100%; /* Make sure the image doesn't overflow its container */
+        border-radius: 10px; /* Add border-radius for a more visually appealing look */
+    }
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    .itinarysun p {
+        font-size: 14px;
+    }
+    .undertitle{
+        font-size: 1rem;
+    }
+    #hebridesimg{
+        display: none;
+    }
+}
