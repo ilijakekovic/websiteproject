@@ -176,10 +176,6 @@ p{
     margin-left: 21%;
 }
 
-span{
-    font-weight: bold;
-    
-}
 
 #container {
     width: 80%;
@@ -193,6 +189,16 @@ span{
     
 }
 
+.maintext{
+    display: grid;
+    grid-column-start: 5 ;
+}
+
+#listhigh{
+    width: 25%;
+    display: grid;
+    grid-column-start: 1;
+}
 
 
 @media only screen and (max-width: 768px) {
