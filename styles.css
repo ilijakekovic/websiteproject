@@ -110,7 +110,7 @@ p{
 .text2{
     position: relative;
     left: .3em;
-    height: 30%;
+    height: fit-content;
     margin-left: 8%;
 }
 
@@ -200,8 +200,32 @@ p{
     grid-column-start: 1;
 }
 
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+    margin: 0 auto;
+}   
 
-@media only screen and (max-width: 768px) {
+#introtxt{
+    display: grid;
+    grid-column-start: 2 ;
+    width: 80%;
+    padding: 2%;
+} 
+#maintext{
+    width:90%;
+    padding: 2%;
+}
+#listhigh{
+    display: grid;
+    grid-column-start: 2 ;
+    width: 100%;
+    grid-row-start:2;
+    padding: 2%;
+}
+
+@media only screen and (max-width: 760px) {
     .navbar {
         display: flex;
         flex-direction: column; /* Stack items vertically on smaller screens */
@@ -246,9 +270,21 @@ p{
         font-size: 14px;
     }
     .undertitle{
-        font-size: 1rem;
+        font-size: 1em;
+        margin-right: 40%;
     }
     #hebridesimg{
         display: none;
+    }
+
+    #introtxt{
+        width: fit-content;
+        font-size: 20px;
+    }
+
+
+    .containergridcss{
+        display:block;
+        
     }
 }
