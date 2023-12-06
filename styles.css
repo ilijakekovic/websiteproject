@@ -225,6 +225,11 @@ p{
     padding: 2%;
 }
 
+.gridcontainer2{
+    width: fit-content;
+    margin-left: 35%;
+}
+
 @media only screen and (max-width: 760px) {
     .navbar {
         display: flex;
@@ -244,7 +249,7 @@ p{
     #container, #container2 {
         flex-direction: column; /* Stack items vertically on smaller screens */
         align-items: center; /* Center items horizontally */
-        margin-right: 0; /* Remove margin on the right for container */
+        margin-right: 9%; /* Remove margin on the right for container */
     }
     
     .container-flex {
@@ -287,4 +292,18 @@ p{
         display:block;
         
     }
+   .gridcontainer2{
+    display: block;
+    margin-left:5% ;
+    }
+
+    #hebtxt{
+        margin-left: 15%;
+    }
+    
+    fieldset{
+        width: fit-content;
+        margin-left: 25%;
+    }
+    
 }
